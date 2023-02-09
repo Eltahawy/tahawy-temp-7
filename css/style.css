@@ -147,16 +147,8 @@ ul {
 }
 .main-heading {
   text-align: center;
-  padding: 10px 20px;
-  width: fit-content;
   margin: 0 auto 80px;
-  font-size: 30px;
-  border: 2px solid black;
-  position: relative;
-  transition: var(--main-transition);
   text-transform: uppercase;
-  z-index: 1;
-
   color: var(--main-color);
   font-size: 35px;
   border: 4px solid;
@@ -205,6 +197,7 @@ ul {
   transition-delay: 0.5s;
   border: 4px solid white;
   color: white;
+  overflow: hidden;
 }
 .project .container .info {
   display: grid;
